@@ -19,12 +19,12 @@
     "license": "MIT",
     "require": {
         "php": "^7.1 || ^7.2 || ^7.3 || ^7.4 || ^8.0 || ^8.1",
+        "ext-ctype": "*",
         "ext-openssl": "*",
         "ext-zlib": "*",
-        "ext-ctype": "*",
         "guzzlehttp/guzzle": "^6.5 || ^7.0",
         "phpseclib/phpseclib": "^3.0.8",
-        "psr/log": "^1.1"
+        "psr/log": "^3.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.1",
